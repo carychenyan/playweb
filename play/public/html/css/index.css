@@ -97,29 +97,29 @@ body{
 .m-hotGame{
 	margin: 0.863874rem 0 0;
 }
-.m-hotGame header{
+.m-header header{
 	margin: 0 0.39267rem  0.732984rem 0.39267rem ;
 }
-.m-hotGame header span{
+.m-header header span{
 	font-size: 36px;
 	float: left;	
 	font-weight: bold;
 }
-[data-dpr="2"]  .m-hotGame header span{	 
+[data-dpr="2"]  .m-header header span{	 
 	font-size: 72px;
 }
-[data-dpr="3"]  .m-hotGame header span{	 
+[data-dpr="3"]  .m-header header span{	 
 	font-size:  108px;
 }
-.m-hotGame header a{
+.m-header header a{
 	font-size: 24px;
 	color:#31a5ff;
 	float: right;
 }
-[data-dpr="2"]  header a{	 
+[data-dpr="2"] .m-header header a{	 
 	font-size: 48px;
 }
-[data-dpr="3"]  header a{	 
+[data-dpr="3"] .m-header header a{	 
 	font-size:  72px;
 }
 .m-hotGame li{
@@ -154,5 +154,160 @@ body{
     color: #fff;
     font-size: 26px;
 }
+.m-recommend.m-header header{
+	margin-top: 0.3rem;
+}
+.m-recommend ul{
+	margin: 0 0.213333rem;
+}
+.m-recommend li{
+	width: 50%;
+    float: left;    
+    display: inline;
+    text-align: center;
+    margin-bottom: 0.906667rem
+}
+.m-recommend li a{
+    display: block;
+    width: 100%;
+}
 
+.m-recommend li a b{
+	font-size: 30px;
+}
+[data-dpr="2"] .m-recommend li a b{	 
+	font-size: 60px;
+}
+[data-dpr="3"] .m-recommend li a b{	 
+	font-size:  90px;
+}
+.m-recommend li img {
+    display: block;
+    width: 4.413333rem;
+    height:3.346667rem;
+    border-radius: 0.16rem; 
+    margin: 0 auto 0.346667rem auto;
+}
 
+.m-newPlay.m-header header{
+	margin-top: 0.3rem;
+}
+.m-newPlay li{
+	margin: 0 0.4rem;
+	position: relative;
+	z-index: 1;
+}
+.m-newPlay li .img{
+	float: left; 
+}
+.m-newPlay li .img img{
+	display: block;
+	width: 1.76rem;
+	height:1.76rem;
+	border-radius: 0.266667rem;
+	margin: 0 0.533333rem 0.933333rem auto;
+}
+.m-newPlay li  span{
+	-moz-box-flex:1.0; /* Firefox */
+	-webkit-box-flex:1.0; /* Safari and Chrome */
+	box-flex:1.0;
+	display: block;
+	padding-right: 1.84rem;
+}
+.m-newPlay li  span a{
+	font-size: 34px;
+	margin-bottom: 0.373333rem;
+	display: inline-block;
+}
+[data-dpr="2"] .m-newPlay li  span a{	 
+	font-size: 68px;
+}
+[data-dpr="3"] .m-newPlay li  span a{	 
+	font-size:   102px;
+}
+.m-newPlay li  span p{
+	font-size: 24px;
+	margin-bottom: 0.373333rem;
+}
+[data-dpr="2"] .m-newPlay li  span a{	 
+	font-size: 48px;
+}
+[data-dpr="3"] .m-newPlay li  span a{	 
+	font-size:   72px;
+}
+.m-newPlay li  span em{
+	display: block;
+}
+.m-newPlay li  span em i{
+	width:0.186667rem;
+	height: 0.186667rem; 
+	display: inline-block;
+	margin-right:0.026667rem; 
+	background: url(../images/kaw8.png) no-repeat 0 -88px;
+}
+.m-newPlay li  span em i.half{  
+	background-position: 0 -120px;
+}
+.m-newPlay li  span em i.gray{  
+	background-position: 0 -104px;
+}
+.m-newPlay li .upload{
+	position: absolute;
+	z-index: 5;
+	top: 0.506667rem;
+	right: 0;
+	display: block;
+    width: 1.623037rem;
+    height: 0.706806rem;
+    line-height: 0.706806rem; 
+    border-radius: 0.13089rem;
+    background:#31a5ff;
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+}
+[data-dpr="2"] .m-newPlay li .upload{	 
+	font-size: 52px;
+}
+[data-dpr="3"] .m-newPlay li .upload{	 
+	font-size: 78px;
+}
+.m-read.m-header header{
+	margin-top: 0.3rem;
+}
+.m-read ul{
+	padding: 0 0.4rem;
+}
+.m-read ul li{
+	position: relative;
+	z-index: 1;
+	padding-bottom: 0.466667rem;
+    padding-right: 1.306667rem;
+}
+.m-read ul a{
+    width: 100%;
+    display: inline-block; 
+    font-size: 30px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+[data-dpr="2"] .m-read ul a{	 
+	font-size: 60px;
+}
+[data-dpr="3"] .m-read ul a{	 
+	font-size: 90px;
+}
+.m-read ul li span{
+	position: absolute;
+	z-index: 5;
+	font-size: 24px;
+	top: 0.08rem;
+	right: 0px;
+}
+[data-dpr="2"] .m-read ul li span{	 
+	font-size: 48px;
+}
+[data-dpr="3"] .m-read ul li span{	 
+	font-size: 72px;
+}
