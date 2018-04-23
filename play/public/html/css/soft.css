@@ -97,7 +97,7 @@ body{
 
 .g-main ul{
 	padding:0 0.4rem;
-	background: #fcfcfc;
+	background: #f6f6f6;
 	padding-top: 0.8rem;
 }
 .g-main ul li{
@@ -123,6 +123,52 @@ body{
 	margin-bottom:0.2rem; 
 	background: url(../images/icon.png) no-repeat 0 0;
 }
+.g-main ul .sp dt a i{
+  background-position: 0 -74px 
+}
+.g-main ul .yy dt a i{
+  background-position: 0 -148px 
+}
+.g-main ul .xtgj dt a i{
+  background-position: 0 -222px 
+}
+.g-main ul .tpmh dt a i{
+  background-position: 0 -296px 
+}
+.g-main ul .sysx dt a i{
+  background-position: 0 -370px 
+}
+.g-main ul .gw dt a i{
+  background-position: 0 -444px 
+}
+.g-main ul .jy dt a i{
+  background-position: 0 -524px 
+}
+.g-main ul .jt dt a i{
+  background-position: 0 -598px 
+}
+.g-main ul .sh dt a i{
+  background-position: 0 -670px 
+}
+.g-main ul .jk dt a i{
+  background-position: 0 -744px 
+}
+.g-main ul .bg dt a i{
+  background-position: 0 -814px 
+}
+.g-main ul .et dt a i{
+  background-position: 0 -892px 
+}
+.g-main ul .lrmy dt a i{
+  background-position: 0 -958px 
+}
+.g-main ul .xwyd dt a i{
+  background-position: 0 -1032px 
+}
+.g-main ul .sjtx dt a i{
+  background-position: 0 -1106px 
+}
+ 
 .g-main ul li dt a span{
 	font-size: 30px;
 	text-align: center;
