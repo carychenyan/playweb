@@ -67,6 +67,12 @@ body{
 	right: 0;
 	top:24px; 
 }
+[data-dpr="2"] .g-header a{	 
+	font-size: 60px;
+}
+[data-dpr="3"] .g-header a{	 
+	font-size: 90px;
+}
 .g-main h2{
 	margin:1.093333rem  0 0.506667rem 0; 
 	font-size: 30px;

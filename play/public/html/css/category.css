@@ -73,6 +73,12 @@ body{
 	border-radius: 0.106667rem;
 	overflow: hidden;
 }
+[data-dpr="2"]  .secNav ul{	 
+	font-size: 60px;
+}
+[data-dpr="3"]  .secNav ul{	 
+	font-size: 90px;
+}
 .secNav ul li{
 	float: left;
 	width: 50%;
@@ -106,7 +112,19 @@ body{
 	display: inline-block;
 	padding:0.333333rem 0 0.266667rem 0; 
 }
+[data-dpr="2"]  .g-main li a span{	 
+	font-size: 60px;
+}
+[data-dpr="3"]  .g-main li a span{	 
+	font-size: 90px;
+}
 .g-main li a p{
     font-size: 20px;
     padding-bottom: 0.266667rem;
+}
+[data-dpr="2"]  .g-main li a span{	 
+	font-size: 40px;
+}
+[data-dpr="3"]  .g-main li a span{	 
+	font-size: 60px;
 }

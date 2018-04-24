@@ -136,6 +136,12 @@ body{
 .m-hotGame li a b{
 	font-size: 30px;
 }
+[data-dpr="2"] .m-hotGame li a b{	 
+   font-size: 60px;
+}
+[data-dpr="3"] .m-hotGame li a b{	 
+   font-size: 90px;
+}
 .m-hotGame li img {
     display: block;
     width: 1.570681rem;
@@ -153,6 +159,12 @@ body{
     background:#31a5ff;
     color: #fff;
     font-size: 26px;
+}
+[data-dpr="2"] .m-hotGame li .down{	 
+   font-size: 52px;
+}
+[data-dpr="3"] .m-hotGame li .down{	 
+   font-size: 78px;
 }
 .m-recommend.m-header header{
 	margin-top: 0.3rem;

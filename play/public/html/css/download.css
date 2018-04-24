@@ -190,6 +190,12 @@ body{
   	font-size: 26px;
   	display: block;
   }
+[data-dpr="2"] .secnav li a{	 
+   font-size: 52px;
+}
+[data-dpr="3"] .secnav li a{	 
+   font-size: 78px;
+}
   .secnav li a.sel{
   	background: #31a5ff;
   	color: #fff;
