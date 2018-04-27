@@ -128,3 +128,112 @@ body{
 [data-dpr="3"]  .g-main li a span{	 
 	font-size: 60px;
 }
+
+
+.searchArea{
+	background: #fff;
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	padding:0.506667rem 0.4rem; 
+}
+.searchArea .areaBor{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 1;
+}
+.searchArea .g-header .input{    
+    position: relative;
+    z-index: 1;
+    font-size: 30px; 
+    padding: 0 1.12rem 0 0;
+    margin: inherit;
+    display: block;
+    width: inherit;
+} 
+[data-dpr="2"] .searchArea .g-header .input{	 
+	font-size: 60px;
+}
+[data-dpr="3"] .searchArea .g-header .input{	 
+	font-size: 90px;
+}
+.searchArea .g-header{
+	padding:0 0.106667rem; 
+    
+}
+.searchArea .g-header .input i{
+	width:0.39267rem;
+	height:0.39267rem; 
+	display: inline-block;	 
+	background: url(../images/kaw8.png) no-repeat 0 -49px;
+	position: absolute;
+	top: 0.266667rem;
+	left: 0.4rem;
+}
+.searchArea .g-header .input span{
+	width:0.066667rem;
+	height:0.4rem; 
+	display: inline-block;
+	border-left:0.04rem  solid #31a5ff;	 
+	position: absolute;
+	top: 0.253333rem;
+	left: 1.093333rem;
+}
+.searchArea .g-header .input input{
+	width: 100%;
+	display: block;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    border-radius: 0.053333rem;
+    border:0.013333rem solid #31a5ff;
+    text-indent: 1.333333rem;
+}
+.searchArea .g-header a{
+	float: right; 
+	font-size:30px;
+	margin-left: 0.32rem;
+	position: absolute;
+	z-index: 5;
+	right: 0;
+	top:24px; 
+}
+[data-dpr="2"].searchArea  .g-header a{	 
+	font-size: 60px;
+}
+[data-dpr="3"].searchArea  .g-header a{	 
+	font-size: 90px;
+}
+.searchArea .g-main h2{
+	margin:1.093333rem  0 0.506667rem 0; 
+	font-size: 30px;
+	color: #31a5ff;
+}
+[data-dpr="2"].searchArea  .g-main h2{	 
+	font-size: 60px;
+}
+[data-dpr="3"].searchArea  .g-main h2{	 
+	font-size: 90px;
+}
+.searchArea .g-main li{
+	float: left;
+	height: 0.613333rem;
+	margin: 0 0.213333rem 0.453333rem;
+
+}
+.searchArea .g-main li a{
+	display: inline-block;
+	line-height: 0.613333rem;
+	font-size: 30px;
+	color: #fff;
+	background: #3caaff;
+	padding:0 0.293333rem; 
+	border-radius: 0.106667rem;
+}
+[data-dpr="2"] .searchArea .g-main li a{	 
+	font-size: 60px;
+}
+[data-dpr="3"] .searchArea .g-main li a{	 
+	font-size: 90px;
+}

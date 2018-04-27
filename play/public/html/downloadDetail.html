@@ -36,13 +36,13 @@
                   <header>简介</header>
                   <div class="tex">
                        <div class="scrollBor">
-                            <ul class="scrool cfix" style="width:20.96rem" id="scroll">
-                                <li><img src="images/eg1.jpg" alt=""></li>
-                                <li><img src="images/eg1.jpg" alt=""></li>
-                                <li><img src="images/eg1.jpg" alt=""></li>
-                                <li><img src="images/eg1.jpg" alt=""></li>
-                                <li><img src="images/eg1.jpg" alt=""></li>
-                                <li><img src="images/eg1.jpg" alt=""></li>
+                            <ul class="scrool cfix" style="" id="scroll">
+                                <li><img src="images/eg_03.jpg" alt=""></li>
+                                <li><img src="images/eg_03.jpg" alt=""></li>
+                                <li><img src="images/eg_03.jpg" alt=""></li>
+                                <li><img src="images/eg_03.jpg" alt=""></li>
+                                <li><img src="images/eg_03.jpg" alt=""></li>
+                                <li><img src="images/eg_03.jpg" alt=""></li>
                             </ul>
                         </div>
                         <p>
@@ -61,9 +61,12 @@
 </html>
 <script> 
 window.onload=function(){
-    let scroll=document.getElementById("scroll"),num=0;
-        num=scroll.children.length;
-             scroll.style.width=(220+44)*num/75+"rem";
-         console.log(scroll.style.width)
+    let scroll=document.getElementById("scroll"),num=0,img=scroll.children,itemW=img[0].children[0].naturalWidth;
+             num=scroll.children.length;
+             for (let i = 0; i <img.length; i++) {             
+                   img[i].children[0].style.width=itemW/75+"rem";
+             }
+             scroll.style.width=(itemW+44)*num/75+"rem";        
+
    }  
 </script>
