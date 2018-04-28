@@ -67,15 +67,15 @@ body{
 	height: 0.680628rem;
 	border-bottom: 0.065445rem solid #fff;
 	color: #000;
-	font-size: 38px;
+	font-size: 42px;
 	font-family: '黑体';
 	display: inline-block;
 }
 [data-dpr="2"]  .g-nav li a{	 
-	font-size: 76px;
+	font-size: 84px;
 }
 [data-dpr="3"]  .g-nav li a{	 
-	font-size: 114px;
+	font-size: 126px;
 }
 .g-nav li a.sel{
 	border-bottom: 0.065445rem solid #31a5ff;	
@@ -112,29 +112,29 @@ body{
 .m-read ul a{
     width: 100%;
     display: inline-block; 
-    font-size: 30px; 
+    font-size: 34px; 
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 [data-dpr="2"] .m-read ul a{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"] .m-read ul a{	 
-	font-size: 90px;
+	font-size: 102px;
 }
 .m-read ul li span{
 	position: absolute;
 	z-index: 5;
-	font-size: 24px;
+	font-size: 28px;
 	top: 0.08rem;
 	right: 0px;
 }
 [data-dpr="2"] .m-read ul li span{	 
-	font-size: 48px;
+	font-size: 56px;
 }
 [data-dpr="3"] .m-read ul li span{	 
-	font-size: 72px;
+	font-size: 84px;
 }
 .secNav {
 	padding-top: 0.4rem;
@@ -157,14 +157,14 @@ body{
 	border: 0.013333rem solid #31a5ff;
 	color: #31a5ff;
 	background: #fff;
-	font-size: 30px;
+	font-size: 34px;
 	margin: 0.466667rem 0.333333rem;
 }
 [data-dpr="2"]  .secNav li a{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"]  .secNav li a{	 
-	font-size: 90px;
+	font-size: 102px;
 }
 .secNav li a.sel{
     background: #31a5ff;
@@ -189,17 +189,17 @@ body{
 .searchArea .g-header .input{    
     position: relative;
     z-index: 1;
-    font-size: 30px; 
+    font-size: 34px; 
     padding: 0 1.12rem 0 0;
     margin: inherit;
     display: block;
     width: inherit;
 } 
 [data-dpr="2"] .searchArea .g-header .input{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"] .searchArea .g-header .input{	 
-	font-size: 90px;
+	font-size: 102px;
 }
 .searchArea .g-header{
 	padding:0 0.106667rem; 
@@ -234,7 +234,7 @@ body{
 }
 .searchArea .g-header a{
 	float: right; 
-	font-size:30px;
+	font-size:34px;
 	margin-left: 0.32rem;
 	position: absolute;
 	z-index: 5;
@@ -242,21 +242,21 @@ body{
 	top:24px; 
 }
 [data-dpr="2"].searchArea  .g-header a{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"].searchArea  .g-header a{	 
-	font-size: 90px;
+	font-size: 102px;
 }
 .searchArea .g-main h2{
 	margin:1.093333rem  0 0.506667rem 0; 
-	font-size: 30px;
+	font-size: 34px;
 	color: #31a5ff;
 }
 [data-dpr="2"].searchArea  .g-main h2{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"].searchArea  .g-main h2{	 
-	font-size: 90px;
+	font-size: 102px;
 }
 .searchArea .g-main li{
 	float: left;
@@ -267,15 +267,15 @@ body{
 .searchArea .g-main li a{
 	display: inline-block;
 	line-height: 0.613333rem;
-	font-size: 30px;
+	font-size: 34px;
 	color: #fff;
 	background: #3caaff;
 	padding:0 0.293333rem; 
 	border-radius: 0.106667rem;
 }
 [data-dpr="2"] .searchArea .g-main li a{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"] .searchArea .g-main li a{	 
-	font-size: 90px;
+	font-size: 102px;
 }

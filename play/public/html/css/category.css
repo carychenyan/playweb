@@ -69,15 +69,15 @@ body{
 .secNav ul{
 	height: 0.826667rem;
 	border:1px solid #31a5ff;
-	font-size: 30px;
+	font-size: 34px;
 	border-radius: 0.106667rem;
 	overflow: hidden;
 }
 [data-dpr="2"]  .secNav ul{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"]  .secNav ul{	 
-	font-size: 90px;
+	font-size: 102px;
 }
 .secNav ul li{
 	float: left;
@@ -108,25 +108,25 @@ body{
 	text-align: center;
 }
 .g-main li a span{
-	font-size: 30px;
+	font-size: 34px;
 	display: inline-block;
 	padding:0.333333rem 0 0.266667rem 0; 
 }
 [data-dpr="2"]  .g-main li a span{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"]  .g-main li a span{	 
-	font-size: 90px;
+	font-size: 102px;
 }
 .g-main li a p{
-    font-size: 20px;
+    font-size: 24px;
     padding-bottom: 0.266667rem;
 }
 [data-dpr="2"]  .g-main li a span{	 
-	font-size: 40px;
+	font-size: 48px;
 }
 [data-dpr="3"]  .g-main li a span{	 
-	font-size: 60px;
+	font-size: 72px;
 }
 
 
@@ -147,17 +147,17 @@ body{
 .searchArea .g-header .input{    
     position: relative;
     z-index: 1;
-    font-size: 30px; 
+    font-size: 34px; 
     padding: 0 1.12rem 0 0;
     margin: inherit;
     display: block;
     width: inherit;
 } 
 [data-dpr="2"] .searchArea .g-header .input{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"] .searchArea .g-header .input{	 
-	font-size: 90px;
+	font-size: 102px;
 }
 .searchArea .g-header{
 	padding:0 0.106667rem; 
@@ -192,7 +192,7 @@ body{
 }
 .searchArea .g-header a{
 	float: right; 
-	font-size:30px;
+	font-size:34px;
 	margin-left: 0.32rem;
 	position: absolute;
 	z-index: 5;
@@ -200,21 +200,21 @@ body{
 	top:24px; 
 }
 [data-dpr="2"].searchArea  .g-header a{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"].searchArea  .g-header a{	 
-	font-size: 90px;
+	font-size: 102px;
 }
 .searchArea .g-main h2{
 	margin:1.093333rem  0 0.506667rem 0; 
-	font-size: 30px;
+	font-size: 34px;
 	color: #31a5ff;
 }
 [data-dpr="2"].searchArea  .g-main h2{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"].searchArea  .g-main h2{	 
-	font-size: 90px;
+	font-size: 102px;
 }
 .searchArea .g-main li{
 	float: left;
@@ -225,15 +225,15 @@ body{
 .searchArea .g-main li a{
 	display: inline-block;
 	line-height: 0.613333rem;
-	font-size: 30px;
+	font-size: 34px;
 	color: #fff;
 	background: #3caaff;
 	padding:0 0.293333rem; 
 	border-radius: 0.106667rem;
 }
 [data-dpr="2"] .searchArea .g-main li a{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"] .searchArea .g-main li a{	 
-	font-size: 90px;
+	font-size: 102px;
 }

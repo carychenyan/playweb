@@ -50,13 +50,13 @@ body{
    margin-top:0.602094rem; 
 }
 .g-header .arrowL{
-	font-size: 24px;
+	font-size: 28px;
 }
 [data-dpr="2"]  .g-header .arrowL{	 
-	font-size: 48px;
+	font-size: 56px;
 }
 [data-dpr="3"]  .g-header .arrowL{	 
-	font-size:72px;
+	font-size: 84px;
 }
 .g-header .arrowR i{	 
 	width:0.39267rem;
@@ -69,15 +69,15 @@ body{
 	 width: 100%;
 	 text-align: center; 
 	 display: inline-block;
-	 font-size: 30px;
+	 font-size: 34px;
 	 line-height: 1.530366rem;
 	 padding-top:0.2rem;
 }
 [data-dpr="2"]  .g-header div{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"]  .g-header div{	 
-	font-size: 90px;
+	font-size: 102px;
 }
  .g-main{
  	padding:0 0.4rem; 
@@ -111,25 +111,25 @@ body{
 	padding-right: 1.84rem;
 }
 .m-newPlay li  span a{
-	font-size: 34px;
+	font-size: 38px;
 	margin-bottom: 0.243333rem;
 	display: inline-block;
 }
 [data-dpr="2"] .m-newPlay li  span a{	 
-	font-size: 68px;
+	font-size: 76px;
 }
 [data-dpr="3"] .m-newPlay li  span a{	 
-	font-size:   102px;
+	font-size: 104px;
 }
 .m-newPlay li  span p{
-	font-size: 24px;
+	font-size: 28px;
 	margin-bottom: 0.303333rem;
 }
 [data-dpr="2"] .m-newPlay li  span a{	 
-	font-size: 48px;
+	font-size: 56px;
 }
 [data-dpr="3"] .m-newPlay li  span a{	 
-	font-size:   72px;
+	font-size: 84px;
 }
 .m-newPlay li  span em{
 	display: block;
@@ -159,14 +159,14 @@ body{
     border-radius: 0.13089rem;
     background:#31a5ff;
     color: #fff;
-    font-size: 26px;
+    font-size: 30px;
     text-align: center;
 }
 [data-dpr="2"] .m-newPlay li .upload{	 
-	font-size: 52px;
+	font-size: 60px;
 }
 [data-dpr="3"] .m-newPlay li .upload{	 
-	font-size: 78px;
+	font-size: 90px;
 }
 .secnav{ 
 	padding:0.133333rem 0.4rem 0;
@@ -187,14 +187,14 @@ body{
   	border:0.013333rem solid #31a5ff;
   	color: #31a5ff;
   	background: #fff;
-  	font-size: 26px;
+  	font-size: 30px;
   	display: block;
   }
 [data-dpr="2"] .secnav li a{	 
-   font-size: 52px;
+   font-size: 60px;
 }
 [data-dpr="3"] .secnav li a{	 
-   font-size: 78px;
+   font-size: 90px;
 }
   .secnav li a.sel{
   	background: #31a5ff;
@@ -219,17 +219,17 @@ body{
 .searchArea .g-header .input{    
     position: relative;
     z-index: 1;
-    font-size: 30px; 
+    font-size: 34px; 
     padding: 0 1.12rem 0 0;
     margin: inherit;
     display: block;
     width: inherit;
 } 
 [data-dpr="2"] .searchArea .g-header .input{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"] .searchArea .g-header .input{	 
-	font-size: 90px;
+	font-size: 102px;
 }
 .searchArea .g-header{
 	padding:0 0.106667rem; 
@@ -264,7 +264,7 @@ body{
 }
 .searchArea .g-header a{
 	float: right; 
-	font-size:30px;
+	font-size:34px;
 	margin-left: 0.32rem;
 	position: absolute;
 	z-index: 5;
@@ -272,21 +272,21 @@ body{
 	top:24px; 
 }
 [data-dpr="2"].searchArea  .g-header a{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"].searchArea  .g-header a{	 
-	font-size: 90px;
+	font-size: 102px;
 }
 .searchArea .g-main h2{
 	margin:1.093333rem  0 0.506667rem 0; 
-	font-size: 30px;
+	font-size: 34px;
 	color: #31a5ff;
 }
 [data-dpr="2"].searchArea  .g-main h2{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"].searchArea  .g-main h2{	 
-	font-size: 90px;
+	font-size: 102px;
 }
 .searchArea .g-main li{
 	float: left;
@@ -297,15 +297,15 @@ body{
 .searchArea .g-main li a{
 	display: inline-block;
 	line-height: 0.613333rem;
-	font-size: 30px;
+	font-size: 34px;
 	color: #fff;
 	background: #3caaff;
 	padding:0 0.293333rem; 
 	border-radius: 0.106667rem;
 }
 [data-dpr="2"] .searchArea .g-main li a{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"] .searchArea .g-main li a{	 
-	font-size: 90px;
+	font-size: 102px;
 }

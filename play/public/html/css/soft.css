@@ -71,15 +71,15 @@ body{
 	height: 0.680628rem;
 	border-bottom: 0.065445rem solid #fff;
 	color: #000;
-	font-size: 38px;
+	font-size: 42px;
 	font-family: '黑体';
 	display: inline-block;
 }
 [data-dpr="2"]  .g-nav li a{	 
-	font-size: 76px;
+	font-size: 84px;
 }
 [data-dpr="3"]  .g-nav li a{	 
-	font-size: 114px;
+	font-size: 126px;
 }
 .g-nav li a.sel{
 	border-bottom: 0.065445rem solid #31a5ff;	
@@ -174,15 +174,15 @@ body{
 }
  
 .g-main ul li dt a span{
-	font-size: 30px;
+	font-size: 34px;
 	text-align: center;
 	display: block;
 }
 [data-dpr="2"]  .g-main ul li dt a span{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"]  .g-main ul li dt a span{	 
-	font-size: 90px;
+	font-size: 102px;
 }
 .g-main ul li dd{
 	float: left;
@@ -191,17 +191,17 @@ body{
 	width: 25%;
 }
 .g-main ul li dd a{
-	font-size: 30px;
+	font-size: 34px;
 	display: block;
 	text-align: center;
 	height: 1.173333rem;
 	line-height: 1.173333rem;
 } 
 [data-dpr="2"]  .g-main ul li dd a{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"]  .g-main ul li dd a{	 
-	font-size: 90px;
+	font-size: 102px;
 }
 
 
@@ -222,17 +222,17 @@ body{
 .searchArea .g-header .input{    
     position: relative;
     z-index: 1;
-    font-size: 30px; 
+    font-size: 34px; 
     padding: 0 1.12rem 0 0;
     margin: inherit;
     display: block;
     width: inherit;
 } 
 [data-dpr="2"] .searchArea .g-header .input{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"] .searchArea .g-header .input{	 
-	font-size: 90px;
+	font-size: 102px;
 }
 .searchArea .g-header{
 	padding:0 0.106667rem; 
@@ -267,7 +267,7 @@ body{
 }
 .searchArea .g-header a{
 	float: right; 
-	font-size:30px;
+	font-size:34px;
 	margin-left: 0.32rem;
 	position: absolute;
 	z-index: 5;
@@ -275,21 +275,21 @@ body{
 	top:24px; 
 }
 [data-dpr="2"].searchArea  .g-header a{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"].searchArea  .g-header a{	 
-	font-size: 90px;
+	font-size: 102px;
 }
 .searchArea .g-main h2{
 	margin:1.093333rem  0 0.506667rem 0; 
-	font-size: 30px;
+	font-size: 34px;
 	color: #31a5ff;
 }
 [data-dpr="2"].searchArea  .g-main h2{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"].searchArea  .g-main h2{	 
-	font-size: 90px;
+	font-size: 102px;
 }
 .searchArea .g-main li{
 	float: left;
@@ -300,15 +300,15 @@ body{
 .searchArea .g-main li a{
 	display: inline-block;
 	line-height: 0.613333rem;
-	font-size: 30px;
+	font-size: 34px;
 	color: #fff;
 	background: #3caaff;
 	padding:0 0.293333rem; 
 	border-radius: 0.106667rem;
 }
 [data-dpr="2"] .searchArea .g-main li a{	 
-	font-size: 60px;
+	font-size: 68px;
 }
 [data-dpr="3"] .searchArea .g-main li a{	 
-	font-size: 90px;
+	font-size: 102px;
 }
